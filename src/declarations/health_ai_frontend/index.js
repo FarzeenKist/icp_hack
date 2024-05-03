@@ -40,4 +40,4 @@ export const createActor = (canisterId, options = {}) => {
   });
 };
 
-export const health_ai_frontend = createActor(canisterId);
+export const health_ai_frontend = canisterId ? createActor(canisterId) : undefined;

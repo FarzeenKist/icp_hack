@@ -21655,7 +21655,7 @@ __webpack_require__.r(__webpack_exports__);
 const MAX_TTL = BigInt(7 * 24 * 60 * 60 * 1000 * 1000 * 1000);
 
 // Use the INTERNET_IDENTITY_CANISTER_ID from your .env file
-const IDENTITY_PROVIDER = `http://br5f7-7uaaa-aaaaa-qaaca-cai.localhost:4943/`;
+const IDENTITY_PROVIDER = `https://identity.ic0.app/`;
 async function getAuthClient() {
   return await _dfinity_auth_client__WEBPACK_IMPORTED_MODULE_0__.AuthClient.create();
 }
